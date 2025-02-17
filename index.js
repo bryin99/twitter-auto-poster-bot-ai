@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a tweet for a twitter account that post news content and breaking news around the globe post many times a day to keep up with the news cycle in the world, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "generate a tweet for a twitter account that post news content and breaking news around the globe post many times a day to keep up with the news cycle in the world but do not repost news articles over the same specific topic unless it is new information that requires an update, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;

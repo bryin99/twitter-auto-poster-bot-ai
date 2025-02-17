@@ -1,6 +1,6 @@
 name: Auto Tweet Using AI
 
-# Runs every hour
+# Runs every thirty minutes
 on:
   schedule:
     - cron: "0 * * * *"
